@@ -14,7 +14,7 @@ def second_challenge
   
   arr = []
   (groceries.values).each do |x|
-    arr << x    
+    arr + x
   end
 binding.pry
 end
