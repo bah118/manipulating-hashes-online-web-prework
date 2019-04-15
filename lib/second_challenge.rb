@@ -7,14 +7,9 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-binding.pry
   #code your solution here!
   
   groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
-  
-  binding.pry  
-  
-  
   
 
 end
