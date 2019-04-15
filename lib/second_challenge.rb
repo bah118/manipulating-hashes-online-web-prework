@@ -15,6 +15,13 @@ binding.pry
   end
 binding.pry  
   
+  
+  
+  
+  i = 0 
+  while i < groceries.length 
+    
+  end
 
   
 
