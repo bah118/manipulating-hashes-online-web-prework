@@ -16,6 +16,6 @@ def second_challenge
   (groceries.values).each do |x|
     arr << x    
   end
-  
+  arr
 
 end
