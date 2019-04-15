@@ -12,9 +12,6 @@ def second_challenge
   #the next line works but doesn't use .values 
   #groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
   
-  arr = []
-  (groceries.values).each do |x|
-    arr + x
-  end
+arr =  (groceries.values).flatten
 binding.pry
 end
