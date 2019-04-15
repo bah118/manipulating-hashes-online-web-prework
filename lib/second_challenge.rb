@@ -9,20 +9,12 @@ def second_challenge
   }
 binding.pry
   #code your solution here!
-  arr = (groceries.values)
-  arr.each do |item|
-    
-  end
-binding.pry  
+  
+  groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
+  
+  binding.pry  
   
   
-  
-  
-  i = 0 
-  while i < groceries.length 
-    
-  end
-
   
 
 end
