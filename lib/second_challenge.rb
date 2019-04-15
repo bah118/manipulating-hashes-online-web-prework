@@ -8,10 +8,5 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   #code your solution here!
-  
-  #the next line works but doesn't use .values 
-  #groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
-  
   groceries.values.flatten
-
 end
