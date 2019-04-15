@@ -9,7 +9,13 @@ def second_challenge
   }
   #code your solution here!
   
-  groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
+  #the next line works but doesn't use .values 
+  #groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
+  
+  arr = []
+  groceries.values.each do |x|
+    arr << x    
+  end
   
 
 end
