@@ -13,7 +13,7 @@ def second_challenge
   #groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
   
   arr = []
-  groceries.values.each do |x|
+  (groceries.values).each do |x|
     arr << x    
   end
   
